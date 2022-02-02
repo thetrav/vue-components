@@ -1,10 +1,12 @@
 {
   "name": "@thetrav/vuecomp",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "experiment in packaging vue component libraries",
   "main": "dist/library.js",
   "module": "dist/library.mjs",
-  "files": ["dist/*"],
+  "files": [
+    "dist/*"
+  ],
   "scripts": {
     "build": "rollup -c --exports default"
   },
@@ -17,6 +19,9 @@
   "devDependencies": {
     "rollup": "^2.66.1",
     "rollup-plugin-peer-deps-external": "^2.2.4",
-    "rollup-plugin-vue": "^6.0.0"
+    "rollup-plugin-typescript2": "^0.31.2",
+    "rollup-plugin-vue": "^6.0.0",
+    "tslib": "^2.3.1",
+    "typescript": "^4.5.5"
   }
 }
