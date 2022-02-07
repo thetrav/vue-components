@@ -1,3 +1,5 @@
+// rollup is used for packaging the components for use in other projects
+
 import vue from 'rollup-plugin-vue'
 import peerDepsExternal from 'rollup-plugin-peer-deps-external'
 import typescript from 'rollup-plugin-typescript2'

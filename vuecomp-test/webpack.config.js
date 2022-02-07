@@ -1,3 +1,6 @@
+// this webpack supports the final web application, both as a development server, 
+// but also the bundling that produces a packaged and minified file for production.
+
 const path = require("path")
 const HtmlWebpackPlugin = require("html-webpack-plugin")
 const compiler = require('@vue/compiler-sfc')
